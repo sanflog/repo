@@ -1,0 +1,18 @@
+{% extends "philosophy/base.html" %}
+{% load static %}
+{% block contents %}
+    <div class="contents">
+        <h2>Philosophy</h2>
+        <p style="font-size:10px;">2022.4.16</p>
+        <p>生きるために必要なことをここに書く。</p>
+        <h3>Table of contents</h3>
+        {% if doc_list %}
+            <ul>
+            {% for doc in doc_list %}
+                <li><p>{{ doc.title }}</p></li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+{% endblock %}
+

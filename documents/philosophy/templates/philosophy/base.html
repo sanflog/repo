@@ -1,0 +1,19 @@
+{% load static %}
+{# HTML5 declaration #}
+<!DOCTYPE html>
+<html>
+    {# Make modifiabe head elements #}
+    <head>
+        <title>Home | Documents</title>
+        <meta http-equiv="Content-type" content="text/html;' charset=utf-8" />
+        <meta http-equiv="Content-Language" value="en-US" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% block style %}
+            <link rel="stylesheet" type="text/css" href="{% static 'philosophy/style.css' %}">
+        {% endblock %}
+    </head>
+    <body>
+{% block contents %}
+{% endblock %}
+    </body>
+</html>

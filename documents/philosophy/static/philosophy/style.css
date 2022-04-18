@@ -1,0 +1,27 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    color: green;
+}
+
+.header {
+    margin: 100px 150px 50px 150px;
+    padding: 1px 15px 1px 0;
+    text-align: start;
+    font-size: 15px;
+}
+.contents {
+    font-size: 12px;
+    margin: 50px 150px 100px 150px;
+}

@@ -1,0 +1,10 @@
+{% extends "philosophy/base.html" %}
+{% load static %}
+{% block contents %}
+{% if doc %}
+    <h2>{{ doc.title }}</h2>
+    <p>{{ doc.pub_date }}</p>
+    <p>{{ doc.text }}</p>
+{% endif %}
+{% endblock %}
+
