@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -8,7 +7,22 @@ ul {
     list-style-type: number;
 }
 
+.form {
+    margin-left: 10%;
+    font-size: 12px;
+}
+.form h2{
+    font-size: 18px;
+}
+
 .contents {
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 10%;
+    padding: 0;
+}
+
+.detail {
     font-size: 12px;
     margin-top: 50px;
     margin-left: 10%;
